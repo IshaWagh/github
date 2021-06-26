@@ -1,0 +1,402 @@
+.amend{
+    font-family: Segoe Script;
+    font-style: oblique;
+    font-size: 2rem;
+    margin-left: 20px;
+    line-height: 2.1;    
+    margin-top: 15px;
+}
+
+.quotes{
+    font-family: Lucida Sans;
+    color: rgba(6, 6, 87, 0.918);
+    margin-left: 20px;
+    margin-top: -35px;
+    font-size: 10px;
+    font-style:oblique;
+}
+
+.nav1{
+    background-color: #aba9a9;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.nav1 li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 2px;
+    line-height: 4;
+    
+}
+
+.nav1 li a{
+    text-decoration: none;
+    margin-left: 40px;/*spacing between two option*/
+}
+
+.nav1 li a:hover{
+    color: rgb(199, 121, 5);
+}
+
+.nav2{
+    margin-left: 530px;
+    background-color: rgba(216, 141, 3, 0.849);
+    letter-spacing: 3;
+}
+
+.welcome{
+    margin-top: 200px;
+    margin-left: 20px;  
+    opacity: 0.6;
+}
+
+.best{
+    margin-left: 20px;
+    margin-top: -13px;
+    font-size: 4rem;
+    font-style: bold;
+    color: rgb(61, 2, 104);
+}
+
+.best:hover{
+    color: rgba(134, 89, 5, 0.849);
+}
+.pro{
+    margin-left: 20px;
+    margin-top: -25px;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.button{
+    margin-left: 30px;
+    
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.button a{
+    margin-left: 80px;
+    font-size: 22px;
+}
+
+.button :hover{
+    background-color:rgba(134, 89, 5, 0.849);
+    color: black;
+    text-decoration: underline indigo;
+}
+
+.sign{
+     background-color:rgba(134, 89, 5, 0.849);
+     color: black;
+     text-decoration: none;
+}
+
+
+.parallax {
+  /* The image used */
+    background-image: url(../images/bg1.png);
+   
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div1{
+    margin-top: -800px;
+}
+
+.learn{
+    margin-top: 120px;;
+}
+
+.benifit{
+    background-color: rgb(217, 217, 217);
+    padding: 20px 20px 20px;
+    max-width: 1500px;
+    display: flex;
+    margin-top: 90px;
+}
+.benifit1{
+    width: 50%;
+    height: 30%;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.benifit2{
+    flex: 1 1 auto;
+    margin-left: 20px;
+}
+
+.benifit3{
+    margin-top: -10px;
+    font-size: 40px;
+    color: rgb(61, 2, 104);
+}
+
+.benifit3:hover{
+    color: rgba(134, 89, 5, 0.849);
+}
+.box{
+    margin-top: 60px;
+    font-family: Century Gothic;
+    font-size: 20px;
+}
+
+.box1{
+    background-color: rgba(216, 141, 3, 0.849);
+}
+
+.box2{
+    background-color: rgba(216, 141, 3, 0.849);
+    margin-top: 40px;
+}
+
+.box3{
+    background-color: rgba(216, 141, 3, 0.849);
+    margin-top: 40px;
+}
+
+.box4{
+    background-color: rgba(216, 141, 3, 0.849);
+    margin-top: 40px;
+}
+
+.box5{
+    background-color: rgba(216, 141, 3, 0.849);
+    margin-top: 40px;
+}
+
+.box6{
+    background-color: rgba(216, 141, 3, 0.849);
+    margin-top: 40px;
+}
+
+.box7{
+    background-color: rgba(216, 141, 3, 0.849);
+    margin-top: 40px;
+}
+
+.find{
+    margin-left: 360px;
+    margin-top: 100px;
+    font-size: 30;
+    color: rgb(61, 2, 104);
+}
+.find:hover{
+    color: rgba(216, 141, 3, 0.849);
+}
+
+.blocks{
+    margin-top: 50px;
+}
+.block{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.block1{
+    font-family:  Century Gothic;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.content1{
+  position: relative;
+  margin: 30px auto;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+
+}
+
+.about{
+    color: #d9910b;
+}
+.aboutus{
+    color: #a3a3a3;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  background: #111;
+  position: absolute;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: relative;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.box .content:after{
+  position: relative;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #d9910b;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: red;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+input{
+    color: white;
+}
+
+textarea{
+    color:white;
+}
